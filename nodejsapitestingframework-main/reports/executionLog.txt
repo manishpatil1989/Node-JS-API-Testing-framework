@@ -1,0 +1,15 @@
+
+
+
+ ---------------------------------------API Request----------------
+{"url":"https://postcodes.io/postcodes/SL38NY/post","method":"POST","headers":{"Content-Type":"application/json"},"qs":{},"body":"{\n    \"test-env\": {\n        \"data\": {\n            \"proxyname\": {\n                \"proxyname\": \"mock-qa-api\",\n                \"method\": \"POST\",\n                \"hostname\": \"postcodes.io\",\n                \"uri\": \"/postcodes/SL38NY\",\n                \"headers\": {\n                    \"Content-Type\": \"application/json\"\n                }\n            }\n        }\n    }\n}","jar":{"_jar":{"version":"tough-cookie@2.5.0","storeType":"MemoryCookieStore","rejectPublicSuffixes":true,"cookies":[]}},"followRedirect":false}
+
+--------------------------------------------API Status Code-------------
+API Response Code- 404
+
+--------------------------------------------API Response----------------
+"{\"status\":404,\"error\":\"Resource not found\"}"
+
+--------------------------------------------API Response Headers-----------
+{"date":"Sat, 29 Oct 2022 14:29:29 GMT","content-type":"application/json; charset=utf-8","content-length":"43","connection":"keep-alive","x-gnu":"Michael J Blanchard","access-control-allow-origin":"*","etag":"W/\"2b-rD27OrVJ9vKemDNFJ1N8ArOvLVo\"","cf-cache-status":"DYNAMIC","report-to":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Yg18Uug%2FZkt9JvxGH%2Bwx0%2BSxb0TLqfifNfyQf4OUfvYJbypbJgG%2BWn4AopIvfZF3NDMkoVttly84ctpL66R%2BEvb0UiO6qxobqk530oaIkIPl7nTGtSZ7JKVveQqmUg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}","nel":"{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}","server":"cloudflare","cf-ray":"761c9a8c79477417-LHR"}
+----------------------------------------------------------------------------

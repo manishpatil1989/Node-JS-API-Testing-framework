@@ -1,0 +1,15 @@
+{
+    "test-env": {
+        "data": {
+            "proxyname": {
+                "proxyname": "mock-qa-api",
+                "method": "POST",
+                "hostname": "postcodes.io",
+                "uri": "/postcodes/SL38NY",
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    }
+}
